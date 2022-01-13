@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+    
+}
+
+/*h1{
+}
+*/
+
+h2{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.nav-container{
+    max-width: 98rem;
+    margin: 1rem auto;
+    padding: 0 2.2rem;
+}
+
+header{
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1400;
+    width: 100%;
+    min-height: 4.4rem;
+    background-color: rgb(236, 160, 74);
+    backdrop-filter: blur(2rem);
+    margin-bottom: 4.4rem;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -1rem;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: white;
+    padding: 0 3rem;
+    transition: opacity .5s;
+
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+
+.nav-link-logo{
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+letter-spacing: 2px;
+margin: 0 -1rem;
+}
+
+body{
+  min-height: 200rem;
+  background: linear-gradient(#000, red);
+  overflow-y: scroll;
+
+ 
+}
+
+main{
+   margin-top: 4.4rem;
+}
+
+section{
+min-height: 30vh;
+  width: 100%;
+
+}
+
+.formDesign{
+    padding: 40px;
+    overflow: hidden;
+   min-width: 20vh;
+    background-color: rgb(201, 121, 46); 
+    text-align: center;
+   align-self: center;
+    border-radius: 30px;
+    backdrop-filter: blur(0.8rem);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.formDesign input[type="number"]{   
+    border: 0;
+    background: white;
+    display: inline-block;
+    margin: 1rem auto;
+    text-align: center;
+    border: 2px solid rgb(150, 9, 9) ;
+    padding: 14px 10px;
+    width: 70px;
+    outline: none;
+    color:black;
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+.formDesign input[type="number"]:focus{
+    width: 80px;
+    border-color: white;
+}
+
+.formDesign input[type="button"]{
+    border: 0;
+    background: white;
+    display: block;
+    margin: 1vh auto;
+    text-align: center;
+    border: 2px solid  white;
+    padding: 14px 40px;
+    width: 150px;
+    outline: none;
+    color: black;
+    border-radius: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.formDesign input[type="button"]:hover{
+ background-color:  rgb(150, 9, 9) ;
+ color: white;
+}
+
+.formDesign input{   
+    border: 0;
+    background: white;
+    display: inline-block;
+    margin: 1vh auto;
+    text-align: center;
+    border: 2px solid  rgb(150, 9, 9);
+    padding: 14px 10px;
+    width: 70px;
+    outline: none;
+    color:black;
+    border-radius: 30px;
+    transition: 0.25s;
+}
+
+.formDesign input:focus{
+    width: 200px;
+    border-color: white;
+}
+
+
+.formDesign img{
+  width: 20vh;
+}
+
+.logRegContainer{
+
+  justify-content: center;
+  align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
